@@ -40,5 +40,6 @@ def turn(board)
   else
     puts "That's not valid input"
     turn(board)
+  end
   display_board(board)
 end
